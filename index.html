@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Ada TO List</title>
+</head>
+
+<body>
+    <!--  Header -->
+    <div class="header-container">
+        <div id="add-container">
+            <button id="plus-button" class="add">+</button>
+        </div>
+        <header>
+            <div class="header-name">Hi Mile!</div>
+            <p class="header-p">I arranged the tasks you have to do by importance and regularity</p>
+        </header>
+    </div>
+    <div id="inputs-container" class="inputs-container hide-inputs">
+        <input id="name" class="input-add-task" type="text" placeholder="Name" />
+        <input id="description" class="input-add-task" type="text" placeholder="Description" />
+        <button class="btn done" id="done">DONE</button>
+    </div>
+    <!--Tasks TO DO-->
+    <ul class="todo-tasks" id="todo-tasks">
+        <p class="titles">&TASKS TO DO;</p>
+    </ul>
+    <!--Tasks COMPLETE-->
+    <ul id="completed-tasks" class="completed-tasks">
+        <p class="titles">&COMPLETED TASKS;</p>
+    </ul>
+</body>
+
+</html>
+<script src="indexjs.js"></script>
+</body>
+
+</html>
